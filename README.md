@@ -55,7 +55,7 @@ Treat the Data Architect, Database Developer and PhD rows with caution because e
 
 ## Data cleaning and transformation (Power Query)
 
-The full script is in [`powerbi/data_professional_survey.m`](powerbi/data_professional_survey.m). The main steps:
+The survey workbook is not included in this repo. Download it from the tutorial author's repository: [Power BI - Final Project.xlsx](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx) (on the GitHub page, use the download button). The main steps:
 
 1. Promote headers and set data types (dates, times, whole numbers, text).
 2. Strip the free-text tails from "Other (Please Specify):..." answers for job title, industry, country and new-job priority by keeping the text before the `(`. For favourite programming language, keep the text before the `:`.
